@@ -7,6 +7,7 @@
     <title>Kris Chamberlin's Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <!-- *** REMEMBER TO GO TO FILE IN TERMINAL IN ORDER TO COMMIT*** -->
@@ -17,26 +18,79 @@
 
     <!-- Coding the index HTML file will provide a basic outline for other HTML files. -->
 
-    <header>
+    <!-- Add a div container for entire content, including header and section to be 960px -->
 
-        <!-- Add my name with logo -->
+    <div class="entire-content">
+        <!-- Width for both header and main-content is 960px -->
+    </div>
 
-        <nav> 
-            <!-- Add a class for nav -->
+
+
+    <header class="primary-header">
+
+        Header
+
+        <h1 class="logo">Kris Chamberlin</h1>
+        
+        <nav class="nav"> 
+            <!-- nav vs. primary-nav in SC: nav is basic layout and style, primary is bolded -->
 
             <ul>
                 <li><a href="index.html">About</a></li><li><a href="portfolio.html"></a>Portfolio</li><li><a href="contact.html"></a>Contact</li>
             </ul>
         </nav>
 
-
     </header>
+        
 
 
-    <!-- Add div with a container for main content? -->
 
 
-    <footer>
+        <!-- Add div with a container for main content? -->
+
+        <section class="main-content">
+
+            Main Content
+
+            <h1 class="content-heading">About me</h1>
+
+            <!-- Add line between Heading and Paragraph content with <hr> tag -->
+
+            <img class="portfolio-image" src="assets/images/portfolio-picture.jpg" alt="Kris's Portfolio Picture">
+
+
+
+
+            <!-- Replace lorem ipsum with real biography about myself -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit placeat, iusto cupiditate libero dolore amet quae cumque quas voluptatem, alias reiciendis nostrum! Esse obcaecati enim fugiat amet animi accusantium.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ab quo exercitationem architecto, iusto vitae fuga quisquam doloremque, molestiae maiores distinctio iste facere delectus excepturi adipisci reprehenderit officiis asperiores perferendis?
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit at, esse dolores hic consectetur dolorem doloribus temporibus quos voluptate quisquam voluptatem similique officia quaerat aut? Ratione quas consectetur porro minus.
+            </p>
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="primary-footer">
+
+        Footer
 
         <!-- Add copyright text with logo -->
         <div>
