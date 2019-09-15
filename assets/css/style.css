@@ -64,15 +64,34 @@ table {
 
 /* Text */
 
+h1 {
+    font-family: 'Georgia','Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+}
+
 
 /* Header */
 
-header {
+.primary-header {
     background-color: #ffffff;
     border-color: #cccccc;
+    display: inline;
 }
 
-/* Navigation */
+/* Header Logo */
+
+.logo {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px;
+    
+}
+
+/* Header Navigation */
 
 nav {
     text-align: right;
@@ -105,6 +124,16 @@ li {
     margin: auto;
 }
 
+
+/* Portfolio Image */
+    /* Clear float */
+
+.portfolio-image {
+    float: left;
+    width: 15%;
+    height: 15%;
+}
+
 /* Main Content */
 
 .content-heading {
@@ -116,14 +145,13 @@ li {
     border-color: #dddddd;
 }
 
+.bio-1 {
+    padding-left: 20px;
+}
 
-/* Portfolio Image */
-    /* Clear float */
-
-.portfolio-image {
-    float: left;
-    width: 15%;
-    height: 15%;
+.bio-2 
+{
+    clear: both;
 }
 
 
