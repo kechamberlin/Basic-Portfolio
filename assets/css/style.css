@@ -1,6 +1,59 @@
 /* Make sure to add ALL classes */
 
 
+/* CSS RESET */
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 /* All text color other than headings is #777777 */
     /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
 
@@ -17,7 +70,9 @@
     /* main header background-color is #ffffff */
     /* main header border color is #cccccc */
     /* CSS Navigation bars on W3Schools to get rid of bullet points / default */
-
+    header {
+        background-color: lightblue;
+    }
 
 
 
@@ -37,8 +92,13 @@ li {
 
 
 /* Body */
-    /* background pattern found on 'Subtle Patterns" website in instructions */
 
+    body {
+        margin: 0;
+    }
+
+    /* background pattern found on 'Subtle Patterns" website in instructions */
+    
 
 
 
@@ -53,21 +113,33 @@ li {
     /* main content background-color is #ffffff */
     /* main content border color is #dddddd */
 
+    .main-section-content p {
+        /* float: left; */
+    }
 
 
-
-
+.float-left {
+    float: left;
+}
+.clear-fix {
+    clear: both;
+}
 
 /* Portfolio Image */
     /* Clear float */
 
+.porfolio-image {
+    /* float: left; */
+}
 
 
-
-
-    
 /* Footer */
     /* footer background-color is #666666 */
+
+footer {
+    background-color: lightgreen;
+
+}
 
 .primary-footer {
     text-align: center;
