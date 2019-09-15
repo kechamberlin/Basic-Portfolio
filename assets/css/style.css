@@ -79,16 +79,15 @@ p {
 .primary-header {
     background-color: #ffffff;
     border-color: #cccccc;
-    display: inline;
 }
 
 /* Header Logo */
 
-.logo {
+.primary-header h1 {
     color: white;
     background-color: #4aaaa5;
     padding: 10px;
-    
+    display: inline;
 }
 
 /* Header Navigation */
@@ -110,11 +109,10 @@ li {
 
 /* Body */
 
-    body {
-        margin: 0;
-    }
+body {
+    margin: 0;
+}
 
-    /* background pattern found on 'Subtle Patterns" website in instructions */
     
 
 /* Entire Content */
@@ -132,6 +130,7 @@ li {
     float: left;
     width: 15%;
     height: 15%;
+    padding-right: 10px;
 }
 
 /* Main Content */
@@ -143,15 +142,17 @@ li {
 .main-section-content {
     background-color: #ffffff;
     border-color: #dddddd;
+    padding: 20px;
 }
 
 .bio-1 {
-    padding-left: 20px;
+
 }
 
 .bio-2 
 {
     clear: both;
+    padding-top: 10px;
 }
 
 
