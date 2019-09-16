@@ -54,6 +54,10 @@ table {
 header {
     background-color: #ffffff;
     border-color: #cccccc;
+    width: 100%;
+}
+
+.header-container {
     width: 960px;
     margin: auto;
 }
@@ -94,7 +98,11 @@ header li {
 
 /* Main Content */
 
-.container {
+body {
+    background-color: lightblue;
+}
+
+.content-container {
     background-color: #ffffff;
     border-color: #dddddd;
     padding: 20px;
