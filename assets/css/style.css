@@ -157,13 +157,83 @@ section h1 {
 
 /* Portfolio */
 
+.port-img {
+    width: 200px;
+    height: 200px;
+}
+
+/* has z-index; if needed, put in the others */
+.trivia-image-text {
+    position: relative;
+    z-index: 1;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    text-align: center;
+}
+
+.banking-image-text {
+    position: relative;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    text-align: center;
+}
+
+.school-image-text {
+    position: relative;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    text-align: center;
+}
+
+.tech-image-text {
+    position: relative;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    text-align: center;
+}
+
+.art-image-text {
+    position: relative;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    text-align: center;
+}
+
 
 
 
 
 /* Contact */
-label {
-    padding-top: 30px;
+
+input {
+    width: 90%;
+}
+
+.name-email {
+    padding: 10px;
+}
+
+textarea {
+    width: 92%;
+    height: 100px;
+}
+
+.btn {
+    width: fit-content;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 2%;
+    font-size: 20px;
 }
 
 
