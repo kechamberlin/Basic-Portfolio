@@ -1,6 +1,3 @@
-/* Make sure to add ALL classes */
-
-
 /* CSS RESET */
     /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -52,114 +49,131 @@ table {
 }
 
 
-/* All text color other than headings is #777777 */
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
-
-
-
-/* Headings and Backgrounds */
-    /* color is teal #4aaaa5 */
-    /* Heading font-family: 'Georgia', Times, Times New Roman, serif; */
-
-
-/* Text */
-
-h1 {
-    font-family: 'Georgia','Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-p {
-    line-height: 1.6;
-}
-
-
 /* Header */
 
-.primary-header {
+header {
     background-color: #ffffff;
     border-color: #cccccc;
-}
-
-/* Header Logo */
-
-.primary-header h1 {
-    color: white;
-    background-color: #4aaaa5;
-    padding: 10px;
-    display: inline;
-}
-
-/* Header Navigation */
-
-nav {
-    text-align: right;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-    text-align: center;
-}
-
-/* Body */
-
-body {
-    margin: 0;
-}
-
-    
-
-/* Entire Content */
-
-.entire-content-width {
     width: 960px;
     margin: auto;
 }
 
+header h1 {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: fit-content;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-/* Portfolio Image */
-    /* Clear float */
+.logo-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+    padding-top: 20px;
+    word-spacing: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header li {
+    display: inline;
+}
+
+.header-clear {
+    clear: both;
+}
+
+
+
+
+
+/* Main Content */
+
+.container {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    padding: 20px;
+    width: 960px;
+    margin: auto;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+section h1 {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+
+/* Main Content - Portfolio Image */
 
 .portfolio-image {
     float: left;
     width: 15%;
     height: 15%;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
-/* Main Content */
-
-.content-heading {
-    color: #4aaaa5;
-}
-
-.main-section-content {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    padding: 20px;
-}
-
+/* Main Content - Biography */
 .bio-1 {
-
+    padding-top: 10px;
 }
 
-.bio-2 
-{
+.bio-2 {
     clear: both;
     padding-top: 10px;
 }
+
+.bio-3 {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+/* Portfolio */
+
+
+
+
+
+/* Contact */
+label {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
 
 footer {
-    color: #777777;;
+    color: #777777;
     background-color: #666666;
     text-align: center;
     padding-top: 20px;
