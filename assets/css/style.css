@@ -54,6 +54,7 @@ table {
 header {
     background-color: #ffffff;
     border-color: #cccccc;
+    border-bottom: 15px solid lightgray;
     width: 100%;
 }
 
@@ -100,8 +101,9 @@ header li {
 
 /*  */
 body {
-    background-color: lightblue;
+    background-color: lightgray;
 }
+
 
 .content-container {
     background-color: #ffffff;
@@ -154,61 +156,28 @@ section h1 {
 
 
 
-
-
 /* Portfolio */
 
 .port-img {
     width: 200px;
     height: 200px;
+    padding-top: 20px;
 }
 
-/* has z-index; if needed, put in the others */
-.trivia-image-text {
+.port-img-label {
     position: relative;
-    z-index: 1;
-    bottom: 40px;
+    bottom: 50px;
+    left: 50px;
+    font-weight: bold;
+    padding: 10px;
     background-color: #4aaaa5;
     color: white;
     width: fit-content;
     text-align: center;
+    height: 20px;
 }
 
-.banking-image-text {
-    position: relative;
-    bottom: 40px;
-    background-color: #4aaaa5;
-    color: white;
-    width: fit-content;
-    text-align: center;
-}
 
-.school-image-text {
-    position: relative;
-    bottom: 40px;
-    background-color: #4aaaa5;
-    color: white;
-    width: fit-content;
-    text-align: center;
-}
-
-.tech-image-text {
-    position: relative;
-    bottom: 40px;
-    background-color: #4aaaa5;
-    color: white;
-    width: fit-content;
-    text-align: center;
-}
-
-.art-image-text {
-    position: relative;
-    bottom: 40px;
-    background-color: #4aaaa5;
-    color: white;
-    width: fit-content;
-    text-align: center;
-}
 
 
 
